@@ -1,0 +1,15 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "k3s-cp1":
+          ansible_user: "ubuntu"
+          ansible_host: "10.50.50.201"
+          ansible_ssh_private_key_file: "~/k3skey"
+    workers:
+      hosts:
+        "k3s-wk1":
+          ansible_user: "ubuntu"
+          ansible_host: "10.50.50.211"
+          ansible_ssh_private_key_file: "~/k3skey"
