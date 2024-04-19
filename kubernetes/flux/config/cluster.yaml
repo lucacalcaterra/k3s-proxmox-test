@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m
-  url: "ssh://github.com/lucacalcaterra/k3s-proxmox-test.git"
+  url: "https://github.com/lucacalcaterra/k3s-proxmox-test.git"
   ref:
     branch: "main"
   ignore: |
