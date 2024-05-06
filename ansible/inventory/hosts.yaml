@@ -5,24 +5,18 @@ kubernetes:
       hosts:
         "k3s-cp1":
           ansible_user: "ubuntu"
-          ansible_host: "10.50.50.201"
+          ansible_host: "192.168.1.201"
         "k3s-cp2":
           ansible_user: "ubuntu"
-          ansible_host: "10.50.50.202"
+          ansible_host: "192.168.1.202"
         "k3s-cp3":
           ansible_user: "ubuntu"
-          ansible_host: "10.50.50.203"
-        "k3s-cp4":
-          ansible_user: "ubuntu"
-          ansible_host: "10.50.50.204"
-        "k3s-cp5":
-          ansible_user: "ubuntu"
-          ansible_host: "10.50.50.205"
+          ansible_host: "192.168.1.203"
     workers:
       hosts:
         "k3s-wk1":
           ansible_user: "ubuntu"
-          ansible_host: "10.50.50.211"
+          ansible_host: "192.168.1.211"
         "k3s-wk2":
           ansible_user: "ubuntu"
-          ansible_host: "10.50.50.212"
+          ansible_host: "192.168.1.212"

@@ -20,7 +20,7 @@ k3s_server:
   node-ip: "{{ ansible_host }}"
   secrets-encryption: true
   tls-san:
-    - "10.50.50.220"
+    - "192.168.1.220"
     - "cp.lckube.it"
     - "127.0.0.1"
   write-kubeconfig-mode: "644"
